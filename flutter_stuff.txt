@@ -1,0 +1,53 @@
+void main(){}
+runApp();
+MaterialApp(home:)
+Center(child:)
+Text('',style:)
+TextStyle()
+Scaffold(backgroundColor:, appBar:, body:)
+Image(image: NetworkImage(url),AssetImage(.png or .jpeg)) or Image.asset('')
+AppBar(title:,backgroundColor: Colors.red[300])
+Container(child:,color:,height:,width: double.infinity,padding: EdgeInsets.all(0.0),margin: EdgeInsets.symmetric(vertical: 50.0))
+					       				    EdgeInsets.fromLTRB(left,top,right,bottom)
+					       				    EdgeInsets.only(left: 0.0)
+
+Column(mainAxisSize: MainAxisSize.min, verticalDirection: VericalDirection.up/down, mainAxisAlignment: MainAxisAlignment.end/center/spaceEvenly/spaceBetween, crossAxisAlignment: CrossAxisAlignment.end/stretch,children: <widget>[Container(...),Container(...)])
+Row(*similar to column*)
+CircleAvatar(radius:,backgroundColor:)
+SafeArea(child:,color:)
+SizedBox(height:)
+Icon(Icons.add_shopping_cart, size:)
+Card()
+Padding() - can be used for cards
+ListTile()
+Divider() - just like the horizontal rule in html
+Expanded(flex:)
+FlatButton(onPressed: (){print('left button got pressed');})
+RaisedButton()
+setStat((){};)
+stless - for stateless widgets
+stful - for stateful widgets
+
+import 'dart:math'; - import statement for math lib
+Random().nextInt(6)+1; //the stuff inside nextInt shows the max/last digit of the randomizer, and since its minimum is 0, we can add 1 to it.
+
+Dart Variable:
+	var <variable_name> = <any>;
+	String <variable_name> = <any>;
+	int <variable_name> = <any>;
+	dynamic <variable_name> = <any>;
+   To call the variable:
+	$<variable_name>
+
+Stateful Widgets: Better for non-Static purposes i.e, mutable
+Stateless Widgets: Better for Static purposes i.e, immutable
+
+appicon.co
+https://github.com/londonappbrewery/Flutter-Course-Resources
+icons8.com
+vecteezy.com
+canva.com
+fonts.google.com
+material.io
+materialpalette.com
+dartpad.dartlang.org
